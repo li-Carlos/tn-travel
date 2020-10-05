@@ -6,4 +6,10 @@
     <select id="findByName" parameterType="string" resultType="user">
         select * from tab_user where username = #{username}
     </select>
+    <select id="findlikeName" parameterType="string" resultType="user">
+         select * from tab_user where username like #{username}
+    </select>
+    <select id="findlikeName2" parameterType="string" resultType="user">
+         select * from tab_user where username like "%"#{username}"%"
+    </select>
 </mapper>

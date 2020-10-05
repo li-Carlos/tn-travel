@@ -25,5 +25,6 @@
 <!--   一个mapper标签可以指定一个映射文件-->
 <mappers>
     <mapper resource="com/tuniu/dao/UserDao.xml"></mapper>
+    <mapper resource="com/tuniu/dao/CategotyDao.xml"></mapper>
 </mappers>
 </configuration>
